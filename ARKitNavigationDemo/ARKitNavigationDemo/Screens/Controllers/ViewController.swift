@@ -108,6 +108,16 @@ extension ViewController: MessagePresenting {
                 }
             }
         }
+        
+        let point = touches.first!.location(in: sceneView)
+        let hitTestResults = sceneView!.hitTest(point, options: nil)
+        if let node = hitTestResults.first?.node {
+            node.geometry?.firstMaterial?.diffuse.contents = UIColor(red: random256(), green: random256(), blue: random256(), alpha: 1)
+        }
+    }
+    
+    private func random256() -> CGFloat {
+        return CGFloat(arc4random_uniform(256)) / 256
     }
     
     private func showPointsOfInterestInMap(currentLegs: [[CLLocationCoordinate2D]]) {
