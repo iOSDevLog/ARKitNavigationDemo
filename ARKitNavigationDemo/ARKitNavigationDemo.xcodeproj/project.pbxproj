@@ -50,6 +50,8 @@
 		A79518D41F7A1FF90030E21A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79518D31F7A1FF90030E21A /* Constants.swift */; };
 		A79518D61F7A24270030E21A /* ApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79518D51F7A24270030E21A /* ApplicationService.swift */; };
 		A7B30E7B1F79D9C600BDA025 /* StartViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */; };
+		DE0418D522662978007A4AC6 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0418D322662978007A4AC6 /* PushViewController.swift */; };
+		DE0418D622662978007A4AC6 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0418D422662978007A4AC6 /* PushViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		A79518D31F7A1FF90030E21A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A79518D51F7A24270030E21A /* ApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationService.swift; sourceTree = "<group>"; };
 		A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DE0418D322662978007A4AC6 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		DE0418D422662978007A4AC6 /* PushViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +321,8 @@
 				A74AF0C61F6CA3340000CD5F /* StartViewController.swift */,
 				A7B30E7A1F79D9C600BDA025 /* StartViewControllerDelegate.swift */,
 				A79518CD1F7A1F2C0030E21A /* NavigationViewControllerDelegate.swift */,
+				DE0418D322662978007A4AC6 /* PushViewController.swift */,
+				DE0418D422662978007A4AC6 /* PushViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -433,6 +439,7 @@
 				A74AF09F1F6CA2490000CD5F /* LaunchScreen.storyboard in Resources */,
 				A74AF0F01F6CAA020000CD5F /* Start.storyboard in Resources */,
 				A74AF09C1F6CA2490000CD5F /* Assets.xcassets in Resources */,
+				DE0418D622662978007A4AC6 /* PushViewController.xib in Resources */,
 				A74AF09A1F6CA2490000CD5F /* Navigation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0418D522662978007A4AC6 /* PushViewController.swift in Sources */,
 				A74AF0FA1F6CAAC30000CD5F /* NavigationControllerCoordinator.swift in Sources */,
 				A74AF0D11F6CA3990000CD5F /* ControllerCoordinator.swift in Sources */,
 				A74AF0C71F6CA3340000CD5F /* StartViewController.swift in Sources */,

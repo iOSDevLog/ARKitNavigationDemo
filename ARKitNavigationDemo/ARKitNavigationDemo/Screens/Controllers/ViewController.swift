@@ -48,6 +48,17 @@ class ViewController: UIViewController {
         setupScene()
         setupLocationService()
         setupNavigation()
+        
+        let button = UIButton(frame: CGRect(x: 20, y: 20, width: 100, height: 100))
+        button.setTitle("present", for: .normal)
+        view.addSubview(button)
+        
+        button.addTarget(self, action: #selector(push), for: .touchUpInside)
+    }
+    
+    @objc func push() {
+        let vc = PushViewController(nibName: String(describing: PushViewController.self), bundle: nil)
+        self.present(vc, animated: true, completion: nil)
     }
 }
 
